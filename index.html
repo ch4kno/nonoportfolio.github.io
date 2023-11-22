@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b4413e8922.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+
+        <div class="container">
+            <nav>
+                <img src="images/V-ANNO_portfolio_logo-removebg-preview.png" class="logo">
+                <ul id="slidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi,I'm <span>Vanno</span><br> From Cambodia</h1>
+                <div class="my-skill">
+                    <div static-text>i'm a UX/Ui designer <br>web&mobile developer </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--- --------about------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/photo_2023-11-19_14-05-17-removebg-preview.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        I'm vanno, UX/UI designer and web developer, my primary focus is on creating seamless and
+                        user-friendly digital experiences. I specialize in two main areas: User Experience (UX) design,
+                        which involves understanding user behaviors, needs, and goals to create intuitive and enjoyable
+                        interactions, and User Interface (UI) design, which involves designing the visual elements and
+                        overall look and feel of a digital product.
+                        In the realm of UX design, I conduct research to understand the target audience, create user
+                        personas, and develop user flows and wireframes to outline the structure and flow of a digital
+                        product. I aim to enhance user satisfaction and usability by improving the accessibility and
+                        efficiency of the user interface.On the web development side, I am proficient in coding and
+                        programming languages such as HTML, CSS, and JavaScript. I build responsive and dynamic
+                        websites, ensuring that they not only look visually appealing but also function smoothly across
+                        various devices and platforms. I am well-versed in front-end development,I LOVE YU 
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skills')">skills</p>
+                        <p class="tab-links" onclick="opentab('experiences')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>HTML CSS C++ c# JAVA PHP Phyton</span><br></li>
+                            <li><span>app Development</span><br>building websites</li>
+                            <li><span>Figma/adobe XD</span><br>design Android/ios apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experiences">
+                        <ul>
+                            <li><span>2022-2023</span><br>Ux/Ui design internship at KDMV digital</li>
+                            <li><span>2023-2024</span><br>Loading.....</li>
+                            <li><span>2024-2026</span><br>Loading.....</li>
+                            <li><span>2026-2017</span><br>Loading.....</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2023</span><br>UX/UI Training at IT step academy</li>
+                            <li><span>2024</span><br></li> Loading.....
+                            <li><span>2025</span><br></li> Loading.....
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------services------------------ -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web development</h2>
+                    <p>Web development involves building and maintaining websites and web applications. It encompasses a
+                        range of tasks, including web design, front-end development, back-end development, and server
+                        management. Here's an overview of the key aspects of web development:</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-figma"></i>
+                    <h2>UX/UI design</h2>
+                    <p>User Experience (UX) and User Interface (UI) design are crucial components of creating successful
+                        and user-friendly digital products, including websites and applications. Here's an overview of
+                        each<br>-Visual Design<br>-Interaction Design<br>-Information Architecture<br>-User Flows</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Mobile development</h2>
+                    <p>Mobile development involves creating software applications specifically designed for mobile
+                        devices such as smartphones and tablets. There are two main platforms for mobile development:
+                        Android and iOS. Here's an overview of the key aspects of mobile development:</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------portfolio------------- --->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/Untitled design work.png">
+                    <div class="layer">
+                        <h3>The Koi Mobile app</h3>
+                        <p>Thé Mobile Application is an app that links the customers.only for Play store</p>
+                        <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work2.png">
+                    <div class="layer">
+                        <h3> PKR SVR football App</h3>
+                        <p> official app of PKR SVR, available on iOS and Android. All the latest info and videos on PKR
+                            SVR now on your mobile</p>
+                        <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work3.png">
+                    <div class="layer">
+                        <h3> UI Design</h3>
+                        <p> i love yu responsible for a product's appearance, interactivity, usability, behavior, and
+                            overall feel</p>
+                        <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- --------------------contact---------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>vannosmos@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>017828432</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/vano.kan.3?mibextid=ZbWKwL"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://x.com/KanVanno?t=B90RzDM6qxIYlpo8a1t7dQ&s=35"><i
+                                class="fa-brands fa-square-twitter"></i></i></a>
+                        <a href="https://instagram.com/chris2_____?igshid=OGQ5ZDc2ODk2ZA=="><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@diazooo__?_t=8hYPDCpMHCM&_r=1"><i
+                                class="fa-brands fa-tiktok"></i></i></a>
+                    </div>
+                    <a href="images/fack cv.jpg" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright ©vanno. made with <i class="fa-solid fa-heart"></i> crush</p>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-links");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-links");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+
+        var slidemeu = document.getElementById("slidemenu");
+
+        function openmenu() {
+            slidemeu.style.right = "0";
+        }
+        function closemenu() {
+            slidemeu.style.right = "-200px";
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxsq_kKWa9q0ARmRRyax-jvGIHT_Eltjmdc0foHNdfyTtIaPUxwfdFN5K2LWJ9saQpF/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document .getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Your submission has been received !"
+                setTimeout(function(){
+                    nsg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+
+</html>
